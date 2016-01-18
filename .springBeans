@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beansProjectDescription>
+	<version>1</version>
+	<pluginVersion><![CDATA[3.7.2.201511260958-RELEASE]]></pluginVersion>
+	<configSuffixes>
+		<configSuffix><![CDATA[xml]]></configSuffix>
+	</configSuffixes>
+	<enableImports><![CDATA[false]]></enableImports>
+	<configs>
+		<config>java:com.tii.microservices.config.RegistrationServer</config>
+		<config>java:com.tii.microservices.config.AccountsServer</config>
+		<config>java:com.tii.microservices.config.AccountsServer2</config>
+		<config>java:com.tii.microservices.config.WebServer</config>
+		<config>java:com.tii.microservices.config.AccountsWebApplication</config>
+		<config>java:com.tii.microservices.config.KBWebApplication</config>
+	</configs>
+	<autoconfigs>
+	</autoconfigs>
+	<configSets>
+		<configSet>
+			<name><![CDATA[system]]></name>
+			<allowBeanDefinitionOverriding>true</allowBeanDefinitionOverriding>
+			<incomplete>false</incomplete>
+			<configs>
+				<config>java:com.tii.microservices.config.RegistrationServer</config>
+				<config>java:com.tii.microservices.config.AccountsServer</config>
+				<config>java:com.tii.microservices.config.WebServer</config>
+				<config>java:com.tii.microservices.config.AccountsWebApplication</config>
+			</configs>
+			<profiles>
+			</profiles>
+		</configSet>
+	</configSets>
+</beansProjectDescription>
